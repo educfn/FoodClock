@@ -10,5 +10,5 @@
 	BarBackgroundColor="AliceBlue"
 	SelectedTabColor="#512BD4"
 	UnselectedTabColor="Gray">
-	<pages:Page1/>
+	<pages:PortaGeladeiraFechada />
 </TabbedPage>

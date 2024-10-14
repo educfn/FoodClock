@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+	x:Class="FoodClock.Views.PortaGeladeiraFechada"
+	xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+	xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+	Title="PortaGeladeiraFechada"
+	BackgroundColor="White"
+	MaximumWidthRequest="412"
+	MaximumHeightRequest="892">
+	<Border Stroke="#CAC4D0" StrokeThickness="8">
+		
+	</Border>
+</ContentPage>

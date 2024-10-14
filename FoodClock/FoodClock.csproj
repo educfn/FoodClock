@@ -64,7 +64,13 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <MauiXaml Update="Views\Page1.xaml">
+	  <Compile Update="Views\PortaGeladeiraFechada.xaml.cs">
+	    <DependentUpon>PortaGeladeiraFechada.xaml</DependentUpon>
+	  </Compile>
+	</ItemGroup>
+
+	<ItemGroup>
+	  <MauiXaml Update="Views\PortaGeladeiraFechada.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="Views\TabbedPageMenu.xaml">
