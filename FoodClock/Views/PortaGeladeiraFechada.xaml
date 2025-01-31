@@ -5,9 +5,9 @@
 	xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
 	Title="PortaGeladeiraFechada"
 	BackgroundColor="White"
-	MaximumWidthRequest="412"
-	MaximumHeightRequest="892">
+	MaximumHeightRequest="892"
+	MaximumWidthRequest="412">
 	<Border Stroke="#CAC4D0" StrokeThickness="8">
-		
+		<Image Source="fridge_doors_closed.png" />
 	</Border>
 </ContentPage>
