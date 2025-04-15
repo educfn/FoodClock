@@ -6,4 +6,14 @@ public partial class PortaGeladeiraFechada : ContentPage
 	{
 		InitializeComponent();
 	}
+
+	void UpperDoorClicked(object sender, TappedEventArgs args)
+	{
+
+	}
+
+	void MainDoorClicked(object sender, TappedEventArgs args)
+	{
+		
+	}
 }

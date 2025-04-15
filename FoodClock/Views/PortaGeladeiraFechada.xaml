@@ -7,7 +7,19 @@
 	BackgroundColor="White"
 	MaximumHeightRequest="892"
 	MaximumWidthRequest="412">
-	<Border Stroke="#CAC4D0" StrokeThickness="8">
-		<Image Source="fridge_doors_closed.png" />
-	</Border>
+	<Grid RowDefinitions="31*, 69*">
+		<Border  Grid.Row="0" Grid.RowSpan="2" Stroke="#CAC4D0" StrokeThickness="8">
+			<Image HorizontalOptions="Fill" VerticalOptions="Fill" Source="fridge_doors_closed.png" />
+		</Border>
+		<Grid Grid.Row="0" Background="Transparent">
+			<Grid.GestureRecognizers>
+				<TapGestureRecognizer Tapped="UpperDoorClicked"/>
+			</Grid.GestureRecognizers>
+		</Grid>
+		<Grid Grid.Row="1" Background="Transparent">
+			<Grid.GestureRecognizers>
+				<TapGestureRecognizer Tapped="MainDoorClicked"/>
+			</Grid.GestureRecognizers>
+		</Grid>
+	</Grid>
 </ContentPage>
